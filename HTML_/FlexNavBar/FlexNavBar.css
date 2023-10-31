@@ -1,0 +1,37 @@
+*{
+    color:azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 0% 5%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-title {
+    color: whitesmoke;
+    text-align: left;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+
+li{
+    padding: 10px
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+    color:black;
+    background-color: aqua;
+}

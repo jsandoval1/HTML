@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel=" stylesheet" href="Profilepage.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <!-----------BODY 1: NAV DIV----------->
+    <!----------- NAV BAR AREA ------------>
+    <!-- Nav Bar div -->
+    <div class="navigationBar">
+        <!-- CONTENTS OF LEFT SIDE OF BAR -->
+        <!-- USE FLEX TO MAKE THESE HORIZANTAL -->
+        <div id="leftNavBarButtons">
+            <h5 class="profile">Profile</h5>
+            <h5>Home</h5>
+            <h5>MyProfile</h5>
+            <h5>Find Connections</h5>
+        </div>
+        <!-- USE CSS TO FLEX THIS BUTTON INSIDE NAV BODY -->
+        <button>Sign out</button>
+        <!-- CONTENTS OF RIGHT SIDE OF BAR -->
+    </div><!-- Close Nav bar div -->
+
+    <!-- **********MAIN WEBPAGE AREA*********** -->
+    <div class="mainPageBackground">
+
+
+        <!-- SETTING BACKGROUND COLOR TO WORK IN -->
+        <div class="leftsideBox"><!-- OPENING LEFTSIDE BOX OF MAIN CONTENT-->
+            <div class="userIDcontainer">
+                <!-- Create Blue Box, info is in css -->
+                <div id="blueBoxID"></div>
+                <div id="userIconID">
+                    <img src="icons/user-circle.png" alt="user circle" height="100px">
+                </div>
+                <!-- Start of whiteBox -->
+                <div id="whiteBoxID">
+                    <h1> John Sandoval</h1>
+                    <!-- Insert image in a Div -->
+                    <div id="locationIconID">
+                        <img src="icons/map-marker.png" alt="map marker" height="15px">
+                        <h2 id="bostonh2"> Boston</h2>
+                    </div>
+                    <!-- We have no seperated our h2 Boston from the infoContent and added image -->
+                    <p class="infoContentID">Developer | Engineer | Probelm-solver</p>
+                    <p class="infoContentID">Master of the Shadows and the internet!</p>
+                    <!-- inserting image icon and flex into edit profile -->
+                    <div id="gearIconID">
+                        <img src="icons/gear.png" alt="gear" height="15px">
+                        <p class="colorTealID">edit profile</p>
+                    </div>
+                </div> <!-- End of whiteBox -->
+            </div>
+            <!-- End of userIDontainer -->
+            <div class="leftSideDividerBox"></div>
+            <!-- Start of educationBox -->
+            <div class="educationBox">
+                <!-- Create Black Box, info is in css -->
+                <div id="blackBoxEdu">
+                    <h3 id="educationLabel"> Education</h3>
+                </div>
+                <div class="eduBoxContent">
+                    <p id="eduBoxLineOne">Coding Dojo - Full stack bootcamp </p>
+                    <p id="eduBoxLineTwo">Dec 2019- March 2020</p>
+                    <p id="eduBoxLineThree">Triple black belt in Python, Mern, and C#</p>
+                </div>
+            </div>
+        </div> <!-- End of whiteBox -->
+        <div id="rightSideBox">
+            <div class="connectionBox">
+                <div class="connectionRequests">Connection Requests</div>
+                <div id="connectionRequestsList">
+                    <p class="userIconRequestList"><img src="icons/user-circle.png" alt="user" height="25px"></p>
+                    Todd E
+                    <p class="acceptMark">
+                        <img src="icons/accept-circle.png" alt="accept-circle" height="25px">
+                    </p>
+                    <p class="closeMark">
+                        <img src="icons/close-circle.png" alt=" close-circle" height="25px">
+                    </p>
+                </div>
+                <div id="connectionRequestsList">
+                    <p class="userIconRequestList"><img src="icons/user-circle.png" alt="user" height="25px"></p>
+                    Fill K
+                    <p class="acceptMark">
+                        <img src="icons/accept-circle.png" alt="accept-circle" height="25px">
+                    </p>
+                    <p class="closeMark">
+                        <img src="icons/close-circle.png" alt=" close-circle" height="25px">
+                    </p>
+                </div>
+            </div>
+            <!-- YOUR CONNECTIONS BOX -->
+            <div class="rightSideDividerBox"></div>
+            <div class="yourConnectionsBox">
+                <div class="yourConnectionsHeader">Your Connections</div>
+                <div class="yourConnectionsListContentArea">
+                    <div class="yourConnectionsListUSerID">
+                        <img src="icons/user-circle.png" alt="user" height="25px">
+                        <p class="yourConnectionsList">Adrien D</p>
+                    </div>
+                    <div class="yourConnectionsListUSerID">
+                        <img src="icons/user-circle.png" alt="user" height="25px">
+                        <p class="yourConnectionsList">Anne J</p>
+                    </div>
+                    <div class="yourConnectionsListUSerID">
+                        <img src="icons/user-circle.png" alt="user" height="25px">
+                        <p class="yourConnectionsList">Alayne T</p>
+                    </div>
+                    <div class="yourConnectionsListUSerID">
+                        <img src="icons/user-circle.png" alt="user" height="25px">
+                        <p class="yourConnectionsList">Arry Y</p>
+                    </div>
+                </div>
+                <div class="viewMoreBox">
+                    <p class="viewMoreLink">View More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- START OF RIGT SIDE  -->
+
+</body>
+
+</html>

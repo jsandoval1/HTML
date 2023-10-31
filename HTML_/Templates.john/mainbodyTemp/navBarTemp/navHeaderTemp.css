@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color:black;
+    font-family: cursive;
+}
+
+/* General CSS */
+.flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* Header */
+header{
+    background-color: aquamarine;
+    padding: 20px 15%;
+}
+
+header ul{
+    list-style-type: none;
+    width:50%;
+}

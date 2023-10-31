@@ -1,0 +1,68 @@
+*{
+    color: black;
+    font-family: cursive;
+}
+
+#container{
+    /* Positioning */
+    width: 600px;
+    margin-left: 25%;
+    margin-top: 120px;
+    /* Border (size, style, color) */
+    border: 1px solid lightgray ;
+}
+
+
+#blueBox{
+    background-color: rgb(23,162,184);
+    height: 75px;
+}
+
+/* Did secret code for top right bottom left to raise JOhn to icon */
+#whiteBox{
+    padding: 0px 25px 25px 25px;
+}
+
+h1{
+    /* h1 default margin being editted to bring h2 up */
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Setting the margins and rules for our h2 Boston */
+h2{
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+/* Adding an Icon Image inline with flex */
+#locationIcon{
+    display:flex;
+    align-items:baseline;
+}
+
+/* Adjusting content to not be so far apart */
+.infoContent{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Once again we are in a Div and adding an image with flex */
+#gearIcon{
+    display:flex;
+    align-items:baseline; 
+}
+
+.colorTeal{
+    color:rgb(50,112,166);
+    margin-left: 5px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#userIcon{
+    margin-left: 20px;
+    margin-top:-50px;
+    margin-bottom: 0;
+}

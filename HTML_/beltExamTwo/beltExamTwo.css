@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    /* color: black; */
+    font-family: cursive;
+}
+
+/* General CSS */
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.column-1 {
+    flex: 1;
+}
+
+.column-2 {
+    flex: 2;
+}
+
+.move-item-down {
+    margin-top: 30px;
+}
+
+.no-border {
+    border-style: none;
+}
+
+.greenbackground{
+    background-color: rgb(0, 209, 178);
+}
+
+.whitetext{
+    color: white;
+}
+
+.add-border{
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Header */
+main {
+    padding: 25px 15%;
+    display: flex;
+}
+
+header {
+    background-color: white;
+    /* border-style: solid;
+    border-width: 2px; */
+    padding: 20px 0%;
+    margin: 0 20%;
+}
+
+#headerLeaf {
+    background-color: rgb(0, 209, 178);
+}
+
+h1 {
+    font-size: 40px;
+    ;
+}
+
+.searchBar {
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 16px;
+    width: 40%;
+}
+
+#magnifyingGlass {
+    padding-left: 100px;
+}
+
+#signInButton {
+    background-color: white;
+    font-size: 20px;
+}
+
+/* Sub Header Area */
+#subHeader {
+    margin: 0 20%;
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: solid 5px;
+}
+
+/* Main Page */
+.box {
+    padding: 30px 20px;
+    border: solid 1px black;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.right-side {
+    margin-left: auto;
+}
+
+h2 {
+    margin: 0 20%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#topRow{
+    margin: 0 20%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#topLeftBox{
+    background-color: rgb(0, 209, 178);
+    color:white;
+    font-size: 20px;
+}
+
+#discoverArrow{
+    padding-top: 10px;
+    justify-content: center;
+}
+
+#topRightBox{
+    margin-left: 5%;
+}
+
+#soothingAloeText{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* BOTTOM ROW MAIN CONTENT */
+.bottomRowContentBackground{
+    background-color: rgb(174,234,233);
+    margin: 0 20%;
+    margin-top: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* #plantProfile{
+    justify-content: space-around;
+} */

@@ -1,0 +1,269 @@
+* {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* <!-----------BODY 1: NAV DIV----------->
+<!----------- NAV BAR AREA ------------> */
+/* FLEX ALL ITEMS AND FAMILIES WITHIN */
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    padding: 0 25%;
+    outline: 2px solid darkgrey;
+    align-items: center;
+}
+
+/* DISPLAYING ALL CHILD ITEMS (Lines 19-25) IN FLEX/ ALIGNED */
+#leftNavBarButtons {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+}
+
+/* SETTING ALL h5 TAGS IN THIS FAMILY TO HAVE SPACING */
+#leftNavBarButtons h5 {
+    padding: 0 20px;
+    font-size: 20px;    
+    color: lightgray;
+}
+
+/* SETTING .PROFILE TO BE BIGGER FONT THAN REST */
+#leftNavBarButtons .profile {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* SETTING BUTTON COLORS AND PROPERTIES */
+button {
+    font-size: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(23,162,184);
+    color:white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+/* <!-- **********MAIN WEBPAGE AREA*********** --> */
+.mainPageBackground {
+    background-color: white;
+    /* height: 700px; */
+    display: flex;
+}
+
+.leftsideBox {
+    margin-left: 15%;
+    margin-top: 3%;
+    height: fit-content;
+    width: 40%;
+    background-color: white;
+}
+
+/* CSS FOR USER ID ********/
+.userIDcontainer {
+    /* Positioning */
+    width: 100%;
+    border: 5px solid lightgray;
+}
+
+#blueBoxID {
+    background-color: rgb(23, 162, 184);
+    height: 75px;
+}
+
+/* Did secret code for top right bottom left to raise JOhn to icon */
+#whiteBoxID {
+    padding: 0px 25px 25px 25px;
+}
+
+h1 {
+    /* h1 default margin being editted to bring h2 boston up */
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Setting the margins and rules for our h2 Boston */
+#bostonh2 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+/* Adding an Icon Image inline with flex */
+#locationIconID {
+    display: flex;
+    align-items: baseline;
+}
+
+/* Adjusting content to not be so far apart */
+.infoContentID {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Once again we are in a Div and adding an image with flex */
+#gearIconID {
+    display: flex;
+    align-items: baseline;
+}
+
+.colorTealID {
+    color: rgb(50, 112, 166);
+    margin-left: 5px;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#userIconID {
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+
+/* FINISH CSS FOR USER ID **********/
+/* CSS FOR EDUCATIONBOX ********/
+
+.leftSideDividerBox {
+    background-color: white;
+    height: 30px;
+}
+
+.educationBox {
+    width: 100%;
+    border: 5px solid lightgray;
+}
+
+#blackBoxEdu {
+    padding: 5px 0px;
+    background-color: rgb(51,51,51);
+}
+
+#educationLabel {
+    color: white;
+    padding: 5px 10px;
+}
+
+.eduBoxContent {
+    padding: 5px 5px;
+}
+
+#eduBoxLineOne {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+#eduBoxLineTwo {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+#eduBoxLineThree {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+/* FINISH CSS FOR EDUBOX **********/
+
+#rightSideBox {
+    margin-top: 3%;
+    height: fit-content;
+    width: 25%;
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+.connectionBox {
+    background-color: white;
+    border: 5px solid lightgrey;
+}
+
+.connectionRequests {
+    background-color: rgb(51,51,51);
+    color:white;
+    font-size: 25px;
+    padding: 2%;
+    text-align: center;
+}
+
+.userIconRequestList {
+    padding-right: 5%;
+}
+
+#connectionRequestsList {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+}
+
+.acceptMark {
+    padding-left: 30%;
+    align-items: baseline;
+}
+
+.closeMark {
+    padding-left: 5%;
+    align-items: baseline;
+}
+
+/* EXPERIMENT DIVIDER BOX */
+.rightSideDividerBox {
+    background-color: white;
+    height: 30px;
+}
+
+
+/**** YOUR CONNECTIONS BOX ****/
+
+.yourConnectionsHeader {
+    background-color: rgb(51,51,51);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.yourConnectionsBox {
+    background-color: white;
+    border: 5px solid lightgrey;
+}
+
+.yourConnectionsListContentArea{
+    padding: 5% 0%;
+}
+
+.yourConnectionsListUSerID {
+    padding-left: 5%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.yourConnectionsList {
+    padding: 1%;
+    padding-left: 1%;
+    font-size: 20px;
+}
+
+.viewMoreBox {
+    border-top: 5px solid lightgrey;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(12,83,148);
+    font-size: 25px;
+    padding: 2%;
+    padding-left: 10%;
+}
+
+.viewMoreLink {
+    color: rgb(12,83,148);
+}

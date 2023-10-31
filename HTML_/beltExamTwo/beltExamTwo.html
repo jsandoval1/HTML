@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel=" stylesheet" href="beltExamTwo.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="flex justify-content-between align-items-center">
+
+        <img src="images\assets\leaf.png" alt="Green Leaf Icon" width="50" height="50" id="headerLeaf">
+
+        <h1> EasyBay</h1>
+
+        <div class="searchBar justify-content-between align-items-center">
+            <input type="text" placeholder="Search for anything" class="no-border align-items-center">
+            <img src="images\assets\search-dark.png" alt="Magnifying Glass" width="15" height="15" id="magnifyingGlass"
+                class="align-items-center">
+        </div>
+
+        <button class="no-border" id="signInButton">Sign in</button>
+
+        <img src="images\assets\cart-dark.png" alt="Shopping Cart" width="30" height="30" onclick="emptyCart(this)">
+    </header>
+
+    <subHeader>
+        <ul class="flex justify-content-between align-items-center" id="subHeader">
+            <li>Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agave</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+    </subHeader>
+
+    <mainBody>
+        <h2>Your Source for Succulent Specialties</h2>
+        
+        <!-- TOP ROW MAIN CONTENT -->
+        <div class="flex" id="topRow"> 
+            <div class="flex align-items-center column-2" id="topLeftBox">
+                <div class="column-1">
+                    <p>Discover succulent varieties one pot or rack at a time!</p>
+                    <div class="flex align-items-center" id="discoverArrow">
+                        <p>Discover!</p>
+                        <img src="images/assets/arrow-light.png" alt="arrow" width="30" height="25">
+                    </div>
+                </div>
+                <img src="images/assets/succulents-1.jpg" alt="succulents-1" width="100" height="218" class="column-1" id="bigPicOne"
+                onmouseover="this.src='images/assets/arrow-light.png' "
+                onmouseout="this.src='images/assets/succulents-1.jpg'">
+            </div>
+
+            <div class="align-items-center column-1" id="topRightBox">
+                <img src="images/assets/aloe-m.jpg" alt="aloe" width="260" height="150">
+                <div class="flex align-items-center greenbackground whitetext justify-content-center">
+                    <p id="soothingAloeText">Soothing aloe</p>
+                    <img src="images/assets/arrow-light.png" alt="arrow" width="30" height="25">
+                </div>
+            </div>
+        </div>
+        <!-- CLOSE TOP ROW MAIN CONTENT -->
+
+        <!-- OPEN BOTTOM ROW MAIN CONTENT -->
+        <div class="flex align-items-center bottomRowContentBackground" id="plantProfile">
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+            <div class="column-1 add-border">
+                <img src="images/assets/aeonium-s.jpg" alt="Aeonium" width="50" height="50">
+                <p>Aeonium</p>
+            </div>
+        </div>
+    </mainBody>
+
+    <script src="beltExamTwo.js"></script>
+
+</body>
+</html>
